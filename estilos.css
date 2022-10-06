@@ -1,4 +1,7 @@
-
+body{
+    margin: 0;
+    padding: 0;
+}
 
 
 .titulo{
@@ -200,4 +203,48 @@ padding:15px 0px
 }
 .menu li a:hover{
     background:  rgb(39, 66, 102);
+}
+
+/*::novedades:*/
+
+.izquierda{
+    background-color: rgb(0, 29, 89);
+    height: 100%; /*es para que ocupe todo el ancho y alto de la pagina el color*/
+    width: 50%;
+}
+
+.derecho{
+    background: url(Img/648549.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100;
+}
+#pantalla-dividida{
+    display: flex;
+}
+
+.titular{
+    color: aliceblue;
+}
+
+.izquierda h1{
+    width: 50%;
+    font-size: 40px;
+    margin: auto;
+    margin-bottom:40px;
+}
+.izquierda p{
+    font-size: 18px;
+    line-height: 30px;
+    width: 50%;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    text-align: center;
+    border-radius: 10%;
 }

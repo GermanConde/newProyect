@@ -1,6 +1,9 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+   
 }
 
 
@@ -18,15 +21,6 @@ body{
     padding: 60px 0px;
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;1,700&display=swap');
-*{
-margin: 0%;
-padding: 0%;
-box-sizing: border-box;
-font-family: Arial, Helvetica, sans-serif;
-
-}
 
 /*:::MENU ACORDEON*/
 .contenedor-acordeon{
@@ -226,6 +220,7 @@ padding:15px 0px
 
 .titular{
     color: aliceblue;
+    font-size: 55px;
 }
 
 .izquierda h1{
@@ -233,18 +228,29 @@ padding:15px 0px
     font-size: 40px;
     margin: auto;
     margin-bottom:40px;
+    font-family: 'Montserrat';
+    
 }
 .izquierda p{
     font-size: 18px;
     line-height: 30px;
     width: 50%;
     margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    font-family: 'Montserrat';
+    
+    
 }
 
-.link{
+.link a{
     text-decoration: none;
+    border: 3px solid rgb(253, 253, 252);
+    padding: 20px;
+    border-radius: 30px;
+    color: rgb(253, 253, 252);
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 30px ;
+}
+.link{
     text-align: center;
-    border-radius: 10%;
 }

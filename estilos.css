@@ -1,80 +1,41 @@
-body{
+*{
     margin: 0;
     padding: 0;
+    
+}
+
+
+
+body{
     font-family: 'Montserrat';
     box-sizing: border-box;
    
+}
+
+.pretitulo{
+    text-align: center;
+    font-size: 20px;
+    background-color: #fff;
+    color: rgb(0,32,96);
+    padding: 5px;
 }
 
 
 .titulo{
     text-align: center;
     font-display: grid;
-    font-size: 80px;
+    font-size: 40px;
     font-weight: bold;
     background-color: rgb(0, 32, 96);
     color: rgb(255, 255, 255);
     width:100%;
-    margin:auto;
+    margin: auto;
     display: grid;
     grid-gap:50px;
     padding: 60px 0px;
 }
 
 
-/*:::MENU ACORDEON*/
-.contenedor-acordeon{
-    width: 100%;
-    max-width: 800px;
-    margin:auto;
-    margin-top: 80px;
-}
-.contenedor-acordeon h2{
-    text-align: center;
-    font-size: 18px;
-    margin-bottom: 35px;
-}
-.acordeon{
-    background: rgba(255, 255, 255, 0.815) ;
-}
-.acordeon p{
-    font-weight:bold ;
-    cursor: pointer;
-}
-.acordeon label{
-    display: block;
-    padding: 20px;
-    font-size: 20px;
-    background: rgb(0, 29, 89);
-    color: rgb(253, 253, 252);
-    cursor: pointer;
-    margin-bottom: 2px;
-    transition: all 300ms ease;
-}
-.acordeon label:hover{
-    background: rgb(39, 66, 102);
-}
-.acordeon .contenido-acordeon{
-    padding: 0px;
-    margin:0px 20px;
-    max-height: 0px;
-    overflow: hidden;
-    transition:all 300ms ease;
-}
-.btn-acordeon:checked ~ .contenido-acordeon{
-max-height: 600px;
-padding:15px 0px
-}
-.btn-acordeon{
-    display: none;
-}
-@media screen and (max-width: 800px){
-    .contenedor-acordeon {
-        width: 90%;
-        grid-template-columns:repeat(1, 1fr);
-        grid-gap:30px;
-        padding: 35px 0px;    }
-    }
 /*::::PIE DE PAGINA*/
 .pie-pagina{
    width: 100%;
@@ -161,6 +122,7 @@ padding:15px 0px
     justify-content: center;
 
 }
+
 .caja img{
     width: 300px;
     height: 360px;
@@ -202,10 +164,11 @@ padding:15px 0px
 /*::novedades:*/
 
 .izquierda{
-    background-color: rgb(0, 29, 89);
+    background-color: rgb(241, 244, 248);
     height: 100%; /*es para que ocupe todo el ancho y alto de la pagina el color*/
     width: 50%;
 }
+
 
 .derecho{
     background: url(Img/648549.jpg);
@@ -219,7 +182,7 @@ padding:15px 0px
 }
 
 .titular{
-    color: aliceblue;
+    color: rgb(39, 66, 102);
     font-size: 55px;
 }
 
@@ -243,13 +206,14 @@ padding:15px 0px
 
 .link a{
     text-decoration: none;
-    border: 3px solid rgb(253, 253, 252);
+    border: 3px solid rgb(39, 66, 102);
     padding: 20px;
     border-radius: 30px;
-    color: rgb(253, 253, 252);
+    color: rgb(39, 66, 102);
     font-weight: bold;
     display: inline-block;
     margin-top: 30px ;
+    margin-bottom: 10px;
 }
 .link{
     text-align: center;
